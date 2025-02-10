@@ -32,5 +32,5 @@ data "vault_kv_secret_v2" "infra_secrets" {
 }
 
 output "infra_secrets" {
-  value = nonsentitive(data.vault_kv_secret_v2.infra_secrets.data)
+  value = nonsensitive(data.vault_kv_secret_v2.infra_secrets.data)
 }
