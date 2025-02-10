@@ -17,5 +17,5 @@ data "vault_kv_secret_v2" "infra_secrets" {
 }
 
 output "infra_secrets" {
-  values = data.vault_kv_secret_v2.infra_secrets.data
+  value = data.vault_kv_secret_v2.infra_secrets.data
 }
