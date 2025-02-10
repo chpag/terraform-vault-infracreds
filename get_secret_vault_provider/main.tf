@@ -1,5 +1,5 @@
 provider "vault" {
-
+  auth_login = "userpass"
 }
 
 variable "secret_infra_path" {
