@@ -25,7 +25,6 @@ provider "vault" {
     }
   }
 }
-}
 
 variable "secret_infra_path" {
   description = "Path of the Secret Engine where Infrastructure Secret are stored"
